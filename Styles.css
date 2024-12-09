@@ -1,0 +1,70 @@
+/* Estilos de la cabecera */
+.bg-header {
+    background: linear-gradient(to right, #ffcccb, #ffe6e6);
+    color: #5a5a5a;
+}
+
+/* Título de la barra lateral */
+.sidebar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6666;
+}
+
+/* Fondo del pie de página */
+.bg-footer {
+    background-color: #ffcccc;
+    color: #5a5a5a;
+}
+
+/* Productos destacados */
+.section-title {
+    color: #ff6666;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas de producto */
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff6666;
+    border-color: #ff6666;
+}
+
+.btn-primary:hover {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+    .bg-header {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .sidebar-title {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
